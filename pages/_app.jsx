@@ -6,6 +6,7 @@ import '../styles/_app.scss'
 const App = ({ Component, pageProps }) => (
   <>
     <Head>
+      <title>Status Codes</title>
       <link
         rel='stylesheet'
         href='https://pro.fontawesome.com/releases/v5.12.1/css/all.css'

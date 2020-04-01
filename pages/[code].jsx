@@ -1,13 +1,19 @@
 import React from 'react'
+import Head from 'next/head'
 
 const Code = ({ code }) => {
   return (
-    <div className='flex flex-page'>
-      <small className='mr-gh'>
-        Status Code
-      </small>
-      <pre>{code}</pre>
-    </div>
+    <>
+      <Head>
+        <title>Status Code: {code}</title>
+      </Head>
+      <div className='flex flex-page'>
+        <small className='mr-gh'>
+          Status Code
+        </small>
+        <pre>{code}</pre>
+      </div>
+    </>
   )
 }
 
