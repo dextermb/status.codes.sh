@@ -1,0 +1,16 @@
+* {
+  box-sizing:border-box;
+  position:relative;
+  margin:0;
+  padding:0;
+  outline:none;
+}
+html, body {
+  font-family:Inter, sans-serif;
+}
+pre {
+  display:inline-block;
+  padding:$gutter-half $gutter;
+  background:#f8f9fa;
+  font-weight:100;
+}

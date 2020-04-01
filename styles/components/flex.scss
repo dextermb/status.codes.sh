@@ -1,0 +1,16 @@
+.flex {
+  display:flex;
+
+  &-page {
+    width:100vw;
+    height:100vh;
+    padding:$gutter;
+    justify-content:center;
+    align-content:center;
+    align-items:center;
+  }
+
+  &-fill {
+    flex-grow:2;
+  }
+}
